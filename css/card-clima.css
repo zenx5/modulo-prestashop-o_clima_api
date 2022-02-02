@@ -1,0 +1,23 @@
+.card-clima{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Noto Sans';
+}
+.card-clima > *{
+	padding-right: 20px;
+}
+
+#clima-temp{
+	font-size: 2em;
+	color: lightgray;
+}
+
+.clima-col-1,.clima-col-2{
+	display: flex;
+	flex-direction: column;
+}
+
+#city{
+	font-size: 2em;
+}
